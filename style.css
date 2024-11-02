@@ -1,0 +1,190 @@
+body{
+	font-family: "Grenze", 'Arial', sans-serif;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;                                   
+}
+nav, #banner{
+	border-bottom: 1px solid #000;
+}
+.nav-link{
+	font-size: 25px;
+	color: #878787;
+}
+#logo{
+	font-family: "Racing Sans One";
+	font-size: 50px;
+	background: -webkit-linear-gradient(left, #56DFFE, #006699);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.authen{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.authen a{
+	text-decoration: none !important;
+	color: #000;
+	font-size: 38px;
+	margin-left: 10px;
+}
+#banner{
+	height: 340px;
+	width: 100%;
+	background-image: linear-gradient(to right, #56DFFE , #338598);
+}
+.myDivider{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section{
+	margin-top: 40px;
+}
+.myDivider h2{
+	width: 100%;
+	font-size: 50px;
+}
+.myDivider hr{
+	border: 2px solid black;
+	width: 40%;
+}
+.clubCircle{
+	border-radius: 50%;
+	height: 160px; 
+	width: 160px; 
+	display: inline-block;
+	border: 5px solid #DFCFCF;
+}
+.clubJersey{
+	display: inline-block;
+}
+#more{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.jerseyImg{
+	border-radius: 15px; 
+	background-color: green; 
+	height: 280px; 
+	width: 255px; 
+	border: 2px solid #000;
+}
+.cover{
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.myList{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.jerseyText h4{
+	text-align: left;
+	font-size: 24px;
+	
+}
+.myList a{
+	text-decoration: none;
+}
+.jerseyText .price{
+	color: #000;
+}
+.jerseyText .title{
+	color: #878787;
+}
+.productContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.productContainer .jerseyImg{
+	width: 450px;
+	height: 460px;
+}
+.properties{
+	text-align: left;
+}
+.properties h2{
+	font-size: 52px;
+	text-align: left;
+}
+.atrib p{
+	font-size: 24px;
+	color: #878787;
+}
+.atrib h3{
+	font-size: 32px;
+}
+#quantity select{
+	width: 100%;
+	height: 40px;
+}
+#quantity option{
+	font-size: 16px;
+	text-align: left;
+}
+#size, #quantity {
+    display: flex;
+    gap: 10px;
+}
+
+.size-option {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 4px;
+}
+.size-option input[type="radio"] {
+    display: none;
+}
+.size-option input[type="radio"]:checked + span {
+    background-color: #333;
+    color: white;
+}
+#addToCart{
+	display: flex;
+	gap: 20px;
+}
+#addToCart button{
+	width: 163px;
+	height: 60px;
+	font-size: 18px;
+}
+#addToCart a{
+	text-decoration: none;
+	color: #000;
+	font-size: 62px;
+}
+.properties *{
+	margin-bottom: 20px;
+}
+.category{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.category .size-option {
+    width: 100px;
+}
