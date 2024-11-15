@@ -88,6 +88,7 @@ section{
 	align-items: center;
 	text-align: center;
 	flex-wrap: wrap;
+	align-content: space-around;
 }
 .jerseyText h4{
 	text-align: left;
@@ -127,20 +128,20 @@ section{
 .atrib h3{
 	font-size: 32px;
 }
-#quantity select{
+.select select{
 	width: 100%;
 	height: 40px;
 }
-#quantity option{
+.select option{
 	font-size: 16px;
 	text-align: left;
 }
-#size, #quantity {
+#size, .select{
     display: flex;
     gap: 10px;
 }
 
-.size-option {
+.size-option{
     position: relative;
     display: inline-block;
     width: 50px;
